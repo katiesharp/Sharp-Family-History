@@ -1,0 +1,96 @@
+/* article.css */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #2c2c2c;
+  background: #fff;
+}
+
+header {
+  background: #2a4a6b;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  font-family: Georgia, serif;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+nav {
+  background: #1e3650;
+  padding: 0.6rem 2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #a8c6e0;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #cce0f5;
+}
+
+#wsite-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #2a4a6b;
+  font-size: 1.4rem;
+  margin-top: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.paragraph {
+  margin-bottom: 1em;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+/* Weebly wrapper divs — transparent pass-throughs */
+.wsite-section-wrap,
+.wsite-section,
+.wsite-section-content,
+.container,
+.wsite-section-elements {
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.wsite-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
